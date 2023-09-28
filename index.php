@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GEMSTONEs</title>
+    <title>VEGETABLES</title>
     <link rel="icon"
         href="https://cdn1.iconfinder.com/data/icons/web-65/48/78-512.png"
         type="image/x-icon" />
@@ -22,8 +22,9 @@
         include("./admincp/config/config.php");
         include("./assets/pages/header.php");
         include("./assets/pages/main.php");
+        include("./assets/pages/menu.php");
         include("./assets/pages/footer.php");
-     ?>
+     ?> 
     <script>
     var header = document.getElementById('header');
     var mobileMenu = document.getElementById('mobile-menu');

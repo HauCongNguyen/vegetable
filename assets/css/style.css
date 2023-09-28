@@ -120,10 +120,10 @@ html {
   position: relative;
   padding-top: 50%;
   margin-top: 46px;
-  background: url(../img/br2.jpeg) top center / cover no-repeat;
+  background: url(../img/bg.jpg) top center / cover no-repeat;
 }
 
-#slider .text-content {
+#slider .text-content { 
   position: absolute;
   bottom: 46px;
   color: #fff;
