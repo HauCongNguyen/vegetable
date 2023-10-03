@@ -169,7 +169,7 @@
     <div class="tabs">
         <ul id="tabs-nav">
             <li><a href="#tab1">Nội dung</a></li>
-            <li><a href="#tab2">Hình ảnh sản phẩm</a></li>
+            <li><a href="#tab2">Chi tiết sản phẩm</a></li>
             <!-- <li><a href="#tab3">Bình luận && đánh giá</a></li> -->
         </ul> <!-- END tabs-nav -->
         <div id="tabs-content">
