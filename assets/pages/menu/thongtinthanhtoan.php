@@ -103,19 +103,6 @@
             <i class="ti-money"></i> Tiền mặt
             </label>
         </div>
-        <div class="form-check">
-            <input class="form-check-input" type="radio" name="thanhtoan" id="exampleRadios2" value="Banking" checked>
-            <label class="form-check-label" for="exampleRadios2">
-            <i class="ti-credit-card"></i> Chuyển khoản 
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="radio" name="thanhtoan" id="exampleRadios4" value="VNPay" checked>
-            <img class="form_check1">
-            <label class="form-check-label" for="exampleRadios4">
-                VNPAY
-            </label>
-        </div>
         <?php
             if(!isset($_SESSION['cart']) || $tongtien==0){
         ?>
@@ -128,37 +115,5 @@
             }
         ?>
 </form>
-<p></p>
- <?php
-            if(!isset($_SESSION['cart']) || $tongtien==0){
-        ?>
-<form class="row" method="POST" target="_blank" enctype="application/x-www-form-urlencoded" action="assets/pages/menu/xulythanhtoanmomo.php">
-    <input disabled type="hidden" value="<?php echo $tongtien?>" name="tongtien">
-    <input style="margin-left: 15px;" disabled type="submit" name="MoMo" value="Thanh toán MOMO QRcode" class="btn btn-primary">
-</form>
-<p></p>
-<form class="" method="POST" target="_blank" enctype="application/x-www-form-urlencoded" action="assets/pages/menu/xulythanhtoanmomo_atm.php">
-    <input disabled type="hidden" value="<?php echo $tongtien?>" name="tongtien">
-    <input disabled type="submit" name="Momo" value="Thanh toán MOMO ATM" class="btn btn-primary">
-</form>
-<?php
-    echo "<script>alert('Vui lòng thêm sản phẩm vào giỏ hàng')
-    window.location.replace('index.php?quanly=giohang#main_list');
-    </script>";
-            }else{
-?>
-<form class="row" method="POST" target="_blank" enctype="application/x-www-form-urlencoded" action="assets/pages/menu/xulythanhtoanmomo.php">
-    <input type="hidden" value="<?php echo $tongtien?>" name="tongtien">
-    <input style="margin-left: 15px;" type="submit" name="MoMo" value="Thanh toán MOMO QRcode" class="btn btn-primary">
-</form>
-<p></p>
-<form class="" method="POST" target="_blank" enctype="application/x-www-form-urlencoded" action="assets/pages/menu/xulythanhtoanmomo_atm.php">
-    <input type="hidden" value="<?php echo $tongtien?>" name="tongtien">
-    <input type="submit" name="MoMo" value="Thanh toán MOMO ATM" class="btn btn-primary">
-</form>
-<?php
-            }
-?>
-</div>
         </div>
         </div>

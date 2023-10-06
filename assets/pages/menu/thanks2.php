@@ -21,18 +21,18 @@
     }
 </style>
 <p class="thanks1">
-    <label>(Nếu chọn hình thức thanh toán là chuyển khoản vui lòng chuyển khoản vào tài khoản bên dưới)</label><br>
-    <label>Nội dung chuyển khoản: Họ tên đã đăng ký + tên sản phẩm</label><br>
-    <label>STK: 01932456789</label><br>
-    <label>Họ và tên: Diệp Thanh Huy</label><br>
-    <label>Ngân hàng: Aribank</label><br>
-    <label>Thông tin chi tiết xin liên hệ: 0946850747 </label>
+    <label>Cảm ơn bạn đã mua hàng tại CTU VEGETABLES</label><br>
+    <label>THÔNG TIN SINH VIÊN</label><br>
+    <label>MSSV: B1910712</label><br>
+    <label>Họ và tên: Nguyễn Lê Đoan Thùy</label><br>
+    <label>Khoa: Công nghệ thông tin - Chương trình chất lượng cao</label><br>
+    <label>Thông tin chi tiết xin liên hệ: B1910712 </label>
 </p>
 <form class="ok" action="index.php#main_list">
     <input type="submit" value="Tiếp tục mua hàng">
 </form>
 <div class="wrapper1">
     <div class="typing-demo">
-        Cám ơn bạn đã mua hàng ,chúng tôi sẽ liên hệ bạn trong thời gian sớm nhất
+        Cảm ơn thầy Thái Minh Tuấn đã đồng ý hướng dẫn em bài niên luận này
     </div>
 </div>

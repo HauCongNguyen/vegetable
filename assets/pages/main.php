@@ -58,11 +58,11 @@
     <div class="map-section">
         <!-- <img src="assets/img/cam-ket-sp-va-quyen-loi-kh.webp" alt="Map"> -->
         <video style="margin: 0px 100px 0px 0px;width: 100%;height:1px;" playsinline="" loop="loop" autoplay="autoplay" muted="muted" src="https://cdn.shopify.com/videos/c/o/v/5994ac4914114e56bb2b91d606e077e1.mp4"></video>
-        <p class="content1">THỊNH HÀNH</p>
-        <video style="width: 33%;" playsinline="" loop="loop" autoplay="autoplay" muted="muted" src="assets/img/video1.mp4"></video>
+        <p class="content1">LỢI ÍCH SỨC KHỎE</p>
+        <video style="width: 33%;" playsinline="" loop="loop" autoplay="autoplay" muted="muted" src="assets/img/apple.mp4"></video>
       
-        <video style="width:33%;" playsinline="" loop="loop" autoplay="autoplay" muted="muted" src="assets/img/video2.mp4"></video>
-        <video style="width: 33%;" playsinline="" loop="loop" autoplay="autoplay" muted="muted" src="assets/img/video3.mp4"></video>
+        <video style="width:33%;" playsinline="" loop="loop" autoplay="autoplay" muted="muted" src="assets/img/khoailang.mp4"></video>
+        <video style="width: 33%;" playsinline="" loop="loop" autoplay="autoplay" muted="muted" src="assets/img/caithaoo.mp4"></video>
     </div>
     <style>
         /* Create three equal columns that floats next to each other */
@@ -87,48 +87,43 @@
 }
     </style>
     <div class="row">
-  <div style="text-align:justify; font-family:cursive;font-size:20px;" class="column"><h2>BRILLIANCE RING</h2>
-Diamonds: 55 round, 2.85 carat total weight (min)
-Diamond Color: G/H
-Diamond Clarity: VS/SI
-Width: 15.0 – 8.0 mm
-Metal Type: Available in 14 karat and 18 karat white, yellow, rose gold and also platinum.
-Metal Weight: 14K gold size 6.5 is approx. 15.15 grams
-SKU Number: LR3414
+  <div style="text-align:justify; font-family:cursive;font-size:20px;" class="column"><h2>Táo</h2>
+Táo được cho là rất giàu dinh dưỡng. 100g táo cung cấp 48 kcal, 0,6g chất xơ, 2,5mg sắt, 19mg Canxi, 7mg vitamin C, 27µg betacaroten... 
+Táo có thể giúp bạn giảm cân, giảm nguy cơ mắc bệnh tiểu đường, hỗ trợ sức khỏe não bộ, cải thiện sức khỏe tim mạch, hạ huyết áp, cải thiện vi khuẩn đường ruột, giúp bảo vệ sức khỏe răng miệng, làm cho hơi thở của bạn tốt hơn.
 <div style="margin-top: 25px;background-color:#17a2b8;text-align:center;" class="button-row inherit-colors align-left">
-              <a data-cc-animate-click="" class="button alt keychainify-checked" href="index.php?quanly=sanpham&id=16#main_list">
+              <a data-cc-animate-click="" class="button alt keychainify-checked" href="index.php?quanly=sanpham&id=38#main_list">
                 MUA NGAY
               </a>
             </div>
 </div>
 
-  <div style="text-align:justify; font-family:cursive;font-size:20px;" class="column"><h2>PRINCESS CUT TRELLIS</h2>
-Diamonds: 50 round, 1.69 carat total weight (min)
-Diamond Color: G/H
-Diamond Clarity: VS/SI
-Metal Type:  Available in 14 karat and 18 karat white, yellow, and pink gold and also platinum.
-Metal Weight: 14K size 6.5 is approx. 10.6 grams
-SKU Number: LR5208
+  <div style="text-align:justify; font-family:cursive;font-size:20px;" class="column"><h2>Khoai lang</h2>
+Củ khoai lang là nguồn cung cấp rất nhiều vitamin, khoáng chất, riboflavin, thiamine, niacin và carotenoid. 
+ Củ khoai lang có thể hỗ trợ bạn phòng và chữa nhiều bệnh mãn tính,
+ giảm nguy cơ ung thư,
+ kiểm soát lượng đường trong máu,
+ giảm tỷ lệ mắc bệnh tim,
+ giảm nguy cơ mắc bệnh về mắt,
+ hỗ trợ giảm cân,
+ hỗ trợ giảm căng thẳng, stress ...
+ giúp cải thiện sức khỏe da và tóc.
 <div style="margin-top: 25px;background-color:#17a2b8;text-align:center;" class="button-row inherit-colors align-left">
-              <a data-cc-animate-click="" class="button alt keychainify-checked" href="index.php?quanly=sanpham&id=18#main_list">
+              <a data-cc-animate-click="" class="button alt keychainify-checked" href="index.php?quanly=sanpham&id=32#main_list">
                 MUA NGAY
               </a>
             </div></div>
-  <div style="text-align:justify; font-family:cursive;font-size:20px;" class="column"><h2>QUEEN OF HEARTS RING</h2>
-Diamonds: 16 round, 1.14 carat total weight (min)
-Diamond Color: G/H
-Diamond Clarity: VS/SI
-Width:  2.55 mm
-Metal Type: Available in 14 karat and 18 karat white, yellow, and pink gold and also platinum.
-Metal Weight: 14K Gold Size 6.5 is approx. 2.30 grams
-SKU Number: LR8280
+  <div style="text-align:justify; font-family:cursive;font-size:20px;" class="column"><h2>Cải thảo</h2>
+Trong 100g cải thảo có chứa khoảng 12 calo, 95,14g nước, 0,86g protein, 0,1g chất béo, 0,94g chất xơ, 13mg vitamin A, 80mg carotene, 0.03mg thiamin, 0,04mg riboflavin, 0,4mg niacin, 28mg vitamin C, 0,36mg vitamin E (T).
+ ngăn ngừa rối loạn tim mạch,
+ tốt cho não bộ,
+ điều trị cảm lạnh thông thường,
+ điều trị rối loạn cảm xúc,
+ giúp xương và răng chắc khỏe,
+ ngăn ngừa bệnh hen suyễn.
 <div style="margin-top: 25px;background-color:#17a2b8;text-align:center;" class="button-row inherit-colors align-left">
-              <a data-cc-animate-click="" class="button alt keychainify-checked" href="index.php?quanly=sanpham&id=17#main_list">
+              <a data-cc-animate-click="" class="button alt keychainify-checked" href="index.php?quanly=sanpham&id=30#main_list">
                 MUA NGAY
               </a>
             </div></div>
 </div>
-<video style="width: 33%;" playsinline="" loop="loop" autoplay="autoplay" muted="muted" src="assets/img/2C400526DC472B3D1935C7818CD61995_video_dashinit.mp4"></video>
-<video style="width: 33%;" playsinline="" loop="loop" autoplay="autoplay" muted="muted" src="assets/img/4044B76FB723ACE571BCB4494BE396AF_video_dashinit.mp4"></video>
-<video style="width: 33%;" playsinline="" loop="loop" autoplay="autoplay" muted="muted" src="assets/img/vd1.mp4"></video>
 </div>

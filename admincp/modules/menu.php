@@ -19,7 +19,6 @@
         </a>
         <ul class="submenu">
             <li><a href="index.php?action=quanlydonhang&query=lietke">Đơn hàng</a></li>
-            <li><a href="index.php?action=quanlytintuc&query=them">Tin tức</a></li>
             <li>
                 <a style="color: red;" href="index.php?dangxuat=1">Đăng xuất</a>
             </li>

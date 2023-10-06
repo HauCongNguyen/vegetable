@@ -1,4 +1,4 @@
-<p class="content">GEMSTONEs
+<p class="content">CTU VEGETABLES
     <?php
   if(isset($_SESSION['dangky'])){
     echo 'xin chào: '.'<span style="color:red">'.$_SESSION['dangky'].'</span>'; 

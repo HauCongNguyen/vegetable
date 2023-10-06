@@ -170,16 +170,15 @@
                             <i class="fas fa-map-marker-alt"></i>
                             <div class="cta-text">
                                 <h4>Find us</h4>
-                                <span>35/37 Ngo Thi Nham, An Khanh Ward, Ninh Kieu District, Can Tho City</span>
+                                <span><b>B1910712 Nguyễn Lê Đoan Thùy, Niên luận cơ sở. Trường Công nghệ Thông tin, Đại học Cần Thơ</b></span>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-md-4 mb-30">
                         <div class="single-cta">
-                            <i class="fas fa-phone"></i>
                             <div class="cta-text">
                                 <h4>Call us</h4>
-                                <span>0946850747</span>
+                                <span><b>B1910712</b></span>
                             </div>
                         </div>
                     </div>
@@ -188,7 +187,7 @@
                             <i class="far fa-envelope-open"></i>
                             <div class="cta-text">
                                 <h4>Mail us</h4>
-                                <span>GEMSTONEsshop@gmail.com</span>
+                                <span><b>thuyb1910712@student.ctu.edu.vn</b></span>
                             </div>
                         </div>
                     </div>
@@ -198,24 +197,13 @@
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 mb-50">
                         <div class="footer-widget">
-                            <div class="footer-logo">
-                                <a href="#main_list"><img style="border-radius: 50%;" src="https://cdn1.iconfinder.com/data/icons/web-65/48/78-512.png" class="img-fluid" alt="logo"></a>
+                            <div class="footer-logo" >
+                                <a href="#main_list"><img style="border-radius: 50" src="./assets/img/veget.png" class="img-fluid" alt="logo"></a>
                             </div>
                             <div class="footer-text">
-                                <p><div class="cc-tabs__tab__panel rte" role="tab" id="product-tab-panel1_7695243116765" aria-labelledby="product-tab-panel1_7695243116765">
-        <blockquote data-mce-fragment="1">
-<hr data-mce-fragment="1">
-<h1 style="color: #fff;" data-mce-fragment="1">Dây chuyền, vòng cổ tại GEMSTONEs có gì nổi bật.</h1>
-<h1 style="color: #fff;" data-mce-fragment="1">1. Yên tâm về chất lượng</h1>
-<p data-mce-fragment="1">Các mẫu&nbsp;<a href="index.php?quanly=danhmucsanpham&id=3#main_list" data-mce-fragment="1" data-mce-href="index.php?quanly=danhmucsanpham&id=3#main_list" class="keychainify-checked">Dây chuyền</a>,<span data-mce-fragment="1">&nbsp;</span><a href="index.php?quanly=danhmucsanpham&id=4#main_list" data-mce-fragment="1" data-mce-href="index.php?quanly=danhmucsanpham&id=4#main_list" class="keychainify-checked">vòng tay</a>&nbsp; tại GEMSTONEs được lựa chọn và sàng lọc một cách kĩ càng về chất lượng, với chất liệu và dây được làm từ hợp kim titan trắng, đá, dây dù... cực kì chắc chắn và bền bỉ theo thời gian.</p>
-      </div></p>
+                                <p><div class="cc-tabs__tab__panel rte" role="tab" id="product-tab-panel1_7695243116765" aria-labelledby="product-tab-panel1_7695243116765"></div></p>
                             </div>
-                            <div class="footer-social-icon">
-                                <span>Follow us</span>
-                                <a href="#main_list"><i class="ti-facebook"></i></a>
-                                <a href="#main_list"><i class="ti-twitter-alt"></i></a>
-                                <a href="#main_list"><i class="ti-link"></i></a>
-                            </div>
+
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
@@ -225,37 +213,20 @@
                             </div>
                             <ul>
                                 <li><a href="#main_list">Home</a></li>
-                                <li><a href="#main_list">about</a></li>
-                                <li><a href="#main_list">services</a></li>
-                                <li><a href="#main_list">portfolio</a></li>
-                                <li><a href="#main_list">Contact</a></li>
-                                <li><a href="#main_list">About us</a></li>
-                                <li><a href="#main_list">Our Services</a></li>
-                                <li><a href="#main_list">Expert Team</a></li>
-                                <li><a href="#main_list">Contact us</a></li>
-                                <li><a href="#main_list">Latest News</a></li>
+                                <li><a href="#main_list">About</a></li>
+
                             </ul>
-                            <h1 style="color: #fff;" data-mce-fragment="1">2. Mẫu mã đa dạng</h1>
-<p style="color: #878787;" data-mce-fragment="1">Luôn luôn update những mẫu mặt dây chuyền theo mùa, theo trend, theo phong cách của giới trẻ, đã có hơn 100 mẫu dây chuyền cập bên tại GEMSTONEs, với nhiều chất liệu, kiểu cách. Và không dừng ở con số đó, mỗi ngày Helios đều sẽ tiếp tục update các mẫu sản phẩm mới.</p>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
-                                <h3>Subscribe</h3>
+                            <div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <a href="#main_list"><i class="ti-facebook"></i></a>
+                                <a href="#main_list"><i class="ti-twitter-alt"></i></a>
+                                <a href="#main_list"><i class="ti-link"></i></a>
                             </div>
-                            <div class="footer-text mb-25">
-                                <p>Don't miss to subscribe to our new feeds, kindly fill the form below.</p>
-                            </div>
-                            <div class="subscribe-form">
-                                <form action="#main_list">
-                                    <input type="text" placeholder="Email Address">
-                                    <button><i class="ti-upload"></i></button>
-                                </form>
-                            </div>
-                            <h1 style="color: #fff;" data-mce-fragment="1">3. Giá cả hợp lý&nbsp;</h1>
-<p style="color: #878787;" data-mce-fragment="1">Đến với các sản phẩm của GEMSTONEs, khách hàng có quyền yên tâm về sản phẩm với mức giá mình bỏ ra. Luôn có các event, các ưu đãi cho khách hàng mới, tri ân khách hàng cũ.&nbsp;</p>
-<p style="color: #878787;" data-mce-fragment="1">Ngoài ra, các sản phẩm của GEMSTONEs đều có chế độ bảo hành theo từng dòng sản phẩm, chúng tôi làm tất cả để khách hàng có thể yên tâm khi sử dụng sản phẩm tại GEMSTONEs.</p>
                         </div>
                     </div>
                 </div>
@@ -266,7 +237,7 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 text-center text-lg-left">
                         <div class="copyright-text">
-                            <p>Copyright &copy; 2022 by HUYDIEP </a></p>
+                            <p>Copyright &copy; 2023 by DOANTHUY </a></p>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">

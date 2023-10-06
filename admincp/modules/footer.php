@@ -7,5 +7,5 @@
         <a href=""><i class="ti-twiwtter"></i></a>
         <a href=""><i class="ti-linkedin"></i></a>
     </div>
-    <p class="copyright">Powered by <a href="">HuyDiep</a></p>
+    <p class="copyright">Powered by <a href="">DOANTHUY</a></p>
 </div>

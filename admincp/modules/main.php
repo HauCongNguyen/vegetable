@@ -31,10 +31,7 @@
             }elseif($tam=='quanlytintuc' && $query=='them'){
                 include("modules/quanlytintuc/them.php");
                 include("modules/quanlytintuc/lietke.php");
-            
-            }elseif($tam=='quanlytintuc' && $query=='sua'){
-                include("modules/quanlytintuc/sua.php");
-            
+                            
             }elseif($tam=='quanlynhacungcap' && $query=='them'){
                 include("modules/quanlynhacungcap/them.php");
                 include("modules/quanlynhacungcap/lietke.php");

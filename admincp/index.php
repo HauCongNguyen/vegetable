@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/responsive.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
-    <title>AdminCP</title>
+    <title>CTU VEGETABLES</title>
 </head>
 <?php
  session_start();
@@ -24,7 +24,7 @@
 ?>
 
 <body>
-    <h3 class="title_admin"><a href="index.php">Welcome to AdminCP</a></h3>
+    <h3 class="title_admin"><a href="index.php">Trang quản lý sản phẩm</a></h3>
     <div class="wrapper">
         <?php
             include("./config/config.php");
