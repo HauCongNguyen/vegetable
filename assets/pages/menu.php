@@ -45,7 +45,6 @@
             <i class="nav-arrow-down ti-angle-double-down"></i>
         </a>
         <ul class="submenu">
-            <li><a href="index.php?quanly=tintuc#main_list">TIN TỨC</a></li>
             <li><a href="index.php?quanly=giohang#main_list">GIỎ HÀNG</a></li>
             <li><a href="index.php?quanly=lienhe#footer-section">LIÊN HỆ US</a></li>
             <?php
