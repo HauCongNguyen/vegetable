@@ -12,11 +12,11 @@
 	}
   if(isset($_GET['sort'])){
     if($_GET['sort']=='desc'){
-      $sql_pro = "SELECT * FROM tbl_sanpham,tbl_danhmuc WHERE tbl_sanpham.id_danhmuc=tbl_danhmuc.id_danhmuc ORDER BY tbl_sanpham.giasp DESC LIMIT $begin,10";
+      $sql_pro = "SELECT * FROM tbl_sanpham,tbl_danhmuc WHERE tbl_sanpham.id_danhmuc=tbl_danhmuc.id_danhmuc ORDER BY tbl_sanpham.giasp - tbl_sanpham.giasp*tbl_sanpham.sale/100 DESC LIMIT $begin,10";
     }elseif($_GET['sort']=='asc'){
-      $sql_pro = "SELECT * FROM tbl_sanpham,tbl_danhmuc WHERE tbl_sanpham.id_danhmuc=tbl_danhmuc.id_danhmuc ORDER BY tbl_sanpham.giasp ASC LIMIT $begin,10";
+      $sql_pro = "SELECT * FROM tbl_sanpham,tbl_danhmuc WHERE tbl_sanpham.id_danhmuc=tbl_danhmuc.id_danhmuc ORDER BY tbl_sanpham.giasp - tbl_sanpham.giasp*tbl_sanpham.sale/100 ASC LIMIT $begin,10";
     }else{
-      $sql_pro = "SELECT * FROM tbl_sanpham,tbl_danhmuc WHERE tbl_sanpham.id_danhmuc=tbl_danhmuc.id_danhmuc ORDER BY tbl_sanpham.id_sanpham ASC LIMIT $begin,10";
+      $sql_pro = "SELECT * FROM tbl_sanpham,tbl_danhmuc WHERE tbl_sanpham.id_danhmuc=tbl_danhmuc.id_danhmuc ORDER BY tbl_sanpham.giasp - tbl_sanpham.giasp*tbl_sanpham.sale/100 ASC LIMIT $begin,10";
     }
     $query_pro = mysqli_query($mysqli,$sql_pro);
 }else{
@@ -181,7 +181,7 @@ $trang = ceil($row_count/10);
   }
 ?>
 </br>
-<p class="content">RAU - CU - QUA ?</p>
+<p class="content">RAU - CỦ - QUẢ ?</p>
 <style>
         /* Create three equal columns that floats next to each other */
 .column {
@@ -211,8 +211,8 @@ $trang = ceil($row_count/10);
   </div>
     <select id="sort-box" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
       <option value="?filter=rau&sort=rau#product_list">Rau</option>
-      <option value="?filter=cu&sort=cu#product_list">Cu</option>
-      <option value="?filter=qua&sort=qua#product_list">Qua</option>
+      <option value="?filter=cu&sort=cu#product_list">Củ</option>
+      <option value="?filter=qua&sort=qua#product_list">Quả</option>
     </select>
 </div>
 <ul id="product_list" class="product_list">

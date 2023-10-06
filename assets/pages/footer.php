@@ -169,7 +169,7 @@
                         <div class="single-cta">
                             <i class="fas fa-map-marker-alt"></i>
                             <div class="cta-text">
-                                <h4>Find us</h4>
+                                <h4>Find me</h4>
                                 <span><b>B1910712 Nguyễn Lê Đoan Thùy, Niên luận cơ sở. Trường Công nghệ Thông tin, Đại học Cần Thơ</b></span>
                             </div>
                         </div>
@@ -177,7 +177,7 @@
                     <div class="col-xl-4 col-md-4 mb-30">
                         <div class="single-cta">
                             <div class="cta-text">
-                                <h4>Call us</h4>
+                                <h4>Call me</h4>
                                 <span><b>B1910712</b></span>
                             </div>
                         </div>
@@ -186,7 +186,7 @@
                         <div class="single-cta">
                             <i class="far fa-envelope-open"></i>
                             <div class="cta-text">
-                                <h4>Mail us</h4>
+                                <h4>Mail me</h4>
                                 <span><b>thuyb1910712@student.ctu.edu.vn</b></span>
                             </div>
                         </div>
@@ -237,7 +237,7 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 text-center text-lg-left">
                         <div class="copyright-text">
-                            <p>Copyright &copy; 2023 by DOANTHUY </a></p>
+                            <p>B1910712 &copy; 2023 by DOANTHUY </a></p>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
