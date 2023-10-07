@@ -1,6 +1,7 @@
 <div id="slider_admincp">
-    <div class="text-content">
+    <div class="text-content" style="color:black">
         <h2 class="text-heading">CTU VEGETABLES</h2>
+        <div class="text-discription">B1910712</div>
         <div class="text-discription">Nguyễn Lê Đoan Thùy</div>
     </div>
 </div>
