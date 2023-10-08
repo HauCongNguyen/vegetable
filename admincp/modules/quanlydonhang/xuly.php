@@ -1,6 +1,6 @@
 <?php
 	include('../../config/config.php');
-	require('../../../carbon/autoload.php');
+	require('../../../vendor/autoload.php');
 	use Carbon\Carbon;
     $now = Carbon::now('Asia/Ho_Chi_Minh')->toDateString();
 	if(isset($_GET['code'])){

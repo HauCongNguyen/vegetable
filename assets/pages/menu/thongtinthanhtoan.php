@@ -106,11 +106,11 @@
         <?php
             if(!isset($_SESSION['cart']) || $tongtien==0){
         ?>
-        <input disabled type="submit" value="Thanh toán ngây" name="redirect" class="btn btn-danger">
+        <input disabled type="submit" value="Thanh toán ngay" name="redirect" class="btn btn-danger">
         <?php
             }else{
         ?>
-        <input type="submit" value="Thanh toán ngây" name="redirect" class="btn btn-danger">
+        <input type="submit" value="Thanh toán ngay" name="redirect" class="btn btn-danger">
         <?php
             }
         ?>

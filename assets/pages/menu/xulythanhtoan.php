@@ -4,7 +4,7 @@ use Carbon\Carbon;
 
 session_start();
 	include('../../../admincp/config/config.php');
-	require("../../../carbon/autoload.php");
+	require("../../../vendor/autoload.php");
 	$id_khachhang = $_SESSION['id_khachhang'];
 	$code_donhang = rand(0,9999);
 	$donhang_thanhtoan = $_POST['thanhtoan'];
