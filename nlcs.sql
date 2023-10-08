@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Oct 08, 2023 at 08:18 AM
+-- Generation Time: Oct 08, 2023 at 04:55 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -66,7 +66,8 @@ INSERT INTO `tbl_chitietdonhang` (`id_chitietdonhang`, `code_donhang`, `id_sanph
 (55, 5031, 30, 1, 5),
 (56, 5893, 35, 1, 0),
 (57, 2303, 27, 1, 0),
-(58, 9775, 30, 1, 5);
+(58, 9775, 30, 1, 5),
+(59, 4761, 35, 2, 0);
 
 -- --------------------------------------------------------
 
@@ -140,7 +141,8 @@ INSERT INTO `tbl_donhang` (`id_donhang`, `id_khachhang`, `code_donhang`, `ngaydh
 (42, 9, 5031, '2023-10-08 12:52:01', 0, 'Cash', 8),
 (43, 9, 5893, '2023-10-08 12:55:14', 0, 'Cash', 8),
 (44, 9, 2303, '2023-10-08 12:56:13', 0, 'Cash', 8),
-(45, 8, 9775, '2023-10-08 13:17:28', 0, 'Cash', 7);
+(45, 8, 9775, '2023-10-08 13:17:28', 0, 'Cash', 7),
+(46, 9, 4761, '2023-10-08 20:32:52', 0, 'Cash', 8);
 
 -- --------------------------------------------------------
 
@@ -224,7 +226,7 @@ INSERT INTO `tbl_nhaphang` (`id_nhaphang`, `tensanpham`, `ngaynhap`, `gianhap`, 
 (32, 'Đu đủ', '2023-10-02', 5000, 5, NULL, '1696239189_dudu.webp', 1, 2, 3),
 (33, 'Dưa leo', '2023-10-02', 2000, 10, NULL, '1696239264_dualeo.webp', 1, 1, 3),
 (34, 'Khoai lang', '2023-10-03', 12000, 50, NULL, '1696325931_khoailang.webp', 1, 5, 2),
-(35, 'Khoai tây', '2023-10-03', 10000, 10, 1, '1696325954_khoaitay.jpg', 1, 1, 2),
+(35, 'Khoai tây', '2023-10-03', 10000, 10, 3, '1696325954_khoaitay.jpg', 1, 1, 2),
 (36, 'Cà rốt', '2023-10-03', 5000, 20, NULL, '1696325977_carot.webp', 1, 2, 2),
 (37, 'Bắp cải', '2023-10-03', 15000, 20, NULL, '1696326027_bapcai.jpg', 1, 3, 1),
 (38, 'Cải thảo', '2023-10-03', 7000, 20, 2, '1696326059_caithao.webp', 1, 2, 1),
@@ -271,7 +273,7 @@ INSERT INTO `tbl_sanpham` (`id_sanpham`, `tensanpham`, `masp`, `gianhap`, `giasp
 (32, 'Khoai lang 1KG', '006', 12000, 15000, 50, NULL, NULL, '1696326463_khoailang.webp', '<p>Khoai lang</p>\r\n', '<p>Khoai lang</p>\r\n', 0, 1, 2, 5, 34),
 (33, 'Sầu riêng 1KG', '007', 100000, 120000, 50, NULL, NULL, '1696326626_saurieng.jpg', '<p>Sầu ri&ecirc;ng</p>\r\n', '<p>Sầu ri&ecirc;ng</p>\r\n', 0, 1, 3, 4, 31),
 (34, 'Xà lách 1KG', '008', 15000, 17000, 50, NULL, NULL, '1696326686_xalach.jpg', '<p>X&agrave; l&aacute;ch</p>\r\n', '<p>X&agrave; l&aacute;ch</p>\r\n', 0, 1, 1, 4, 39),
-(35, 'Khoai tây 1KG', '009', 10000, 12000, 9, 1, 2000, '1696326748_khoaitay.jpg', '<p>Khoai t&acirc;y</p>\r\n', '<p>Khoai t&acirc;y</p>\r\n', 0, 1, 2, 1, 35),
+(35, 'Khoai tây 1KG', '009', 10000, 12000, 7, 3, 6000, '1696326748_khoaitay.jpg', '<p>Khoai t&acirc;y</p>\r\n', '<p>Khoai t&acirc;y</p>\r\n', 0, 1, 2, 1, 35),
 (36, 'Dưa leo 0.5KG', '010', 2000, 5000, 10, NULL, NULL, '1696326817_dualeo.webp', '<p>Dưa leo</p>\r\n', '<p>Dưa leo</p>\r\n', 0, 1, 3, 1, 33),
 (37, 'Chôm chôm 1KG', '011', 5000, 10000, 10, NULL, NULL, '1696328027_chomchom.png', '<p>Ch&ocirc;m Ch&ocirc;m</p>\r\n', '<p>Ch&ocirc;m Ch&ocirc;m</p>\r\n', 0, 1, 3, 1, 30),
 (38, 'Táo 1KG', '012', 20000, 25000, 5, NULL, NULL, '1696328178_apple.jpg', '<p>T&aacute;o</p>\r\n', '<p>T&aacute;o</p>\r\n', 0, 1, 3, 2, 27),
@@ -299,7 +301,7 @@ CREATE TABLE `tbl_thongke` (
 
 INSERT INTO `tbl_thongke` (`id`, `ngaydh`, `sodonhang`, `doanhthu`, `soluongban`) VALUES
 (37, '2023-10-06', 3, 47850, 4),
-(38, '2023-10-08', 4, 55000, 5);
+(38, '2023-10-08', 5, 79000, 7);
 
 -- --------------------------------------------------------
 
@@ -337,7 +339,7 @@ CREATE TABLE `tbl_vanchuyen` (
 
 INSERT INTO `tbl_vanchuyen` (`id_vanchuyen`, `name`, `phone`, `address`, `note`, `id_dangky`) VALUES
 (7, 'Nguyễn Lê Đoan Thùy', '123456789', 'CanTho', 'Thuỳ thích ăn cải thảo lắm nha', 8),
-(8, 'Thái Minh Tuấn', '123456', 'CTU', 'Thầy thích ăn cam lắm haha.', 9);
+(8, 'Thái Minh Tuấn', '123456', 'CTU', 'Thầy thích ăn khoai tây lắm haha.', 9);
 
 --
 -- Indexes for dumped tables
@@ -429,7 +431,7 @@ ALTER TABLE `tbl_admin`
 -- AUTO_INCREMENT for table `tbl_chitietdonhang`
 --
 ALTER TABLE `tbl_chitietdonhang`
-  MODIFY `id_chitietdonhang` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=59;
+  MODIFY `id_chitietdonhang` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=60;
 
 --
 -- AUTO_INCREMENT for table `tbl_danhgia`
@@ -447,7 +449,7 @@ ALTER TABLE `tbl_danhmuc`
 -- AUTO_INCREMENT for table `tbl_donhang`
 --
 ALTER TABLE `tbl_donhang`
-  MODIFY `id_donhang` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=46;
+  MODIFY `id_donhang` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=47;
 
 --
 -- AUTO_INCREMENT for table `tbl_khachhang`
